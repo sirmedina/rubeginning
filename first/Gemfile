@@ -12,6 +12,7 @@ gem 'sqlite3'
 # N E W   G E M S
 gem 'carrierwave'
 gem 'foreigner'
+gem 'bootstrap-sass'
 
 
 
