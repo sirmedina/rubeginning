@@ -1,11 +1,11 @@
 body {
-  background: #f88;
+  background: #111;
   font-family: "Oswald", sans-serif;
   font-weight: 400; }
 
 header {
   width: 100%;
-  background: #f88;
+  background: #111;
   margin: 0;
   font-size: 2vw;
   text-align: center;
@@ -15,24 +15,65 @@ header {
 
 #content {
   text-align: center;
-  height: 5em;
-  background: #fff;
+  background: #111;
   width: 78.125%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0.5em; }
+  #content .tabs {
+    background: #111;
+    margin: 0 auto; }
+    #content .tabs .tab {
+      display: inline-block;
+      background: #111;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 0.5em;
+      margin: 0.5em;
+      border-radius: 2em; }
+    #content .tabs .tab:hover {
+      background: #fff;
+      color: #111;
+      cursor: pointer; }
+  #content .itens {
+    background: #111;
+    width: 80%;
+    margin: 1em auto;
+    color: #fff; }
+    #content .itens .item {
+      display: inline-block;
+      width: 49%;
+      border-bottom: solid 1px #fff;
+      margin: 0.25%;
+      text-align: left; }
+      #content .itens .item .item-container {
+        width: 80%;
+        float: left; }
+        #content .itens .item .item-container .name {
+          font-size: 1.25em;
+          display: inline-block; }
+        #content .itens .item .item-container .desc {
+          font-size: 0.75em;
+          display: inline-block; }
+      #content .itens .item .price {
+        font-size: 2em;
+        display: inline-block;
+        background: #222;
+        width: 20%;
+        margin: 0 auto; }
 
 footer {
   width: 100%;
-  background: #f88;
+  background: #111;
   color: #fff;
   margin: 0%;
   height: 3em;
   position: absolute;
   bottom: 0;
   text-align: center; }
-  footer a:link {
+  footer a:link, footer a:visited {
     color: #fff;
     text-decoration: none; }
   footer .link:hover {
-    color: #0cf; }
+    color: #f06; }
 
 /*# sourceMappingURL=framework.scss.map */
