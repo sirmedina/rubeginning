@@ -11,75 +11,214 @@
 		<link rel="icon" href="files/favicon.ico">
 		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 		<!-- Personal normalize.css --><link rel="stylesheet" type="text/css" href="normalize.css"/>
-		<!-- jQuery --><script src="http://code.jquery.com/jquery-1.11.2.js"></script>
-		<!-- jQuery Migrate --><script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$( "#tabs" ).tabs();
+			});
+		</script>
 	</head>
 	<body>
 		<header><h1><%= @title %></h1></header>
-		<div id="content">
-		<ul class="tabs">
-			<li class="tab">A tab</li>
-			<li class="tab">Other tab</li>
-			<li class="tab">An other tab</li>
-			<li class="tab">And other...</li>
-		</ul>
-		<ul class="itens">
-			<li class="item">
-				<div class="item-container">
-					<div class="name">An item</div>
-					<div class="desc">
-						Lorem ipsum dolor sit amet, consectetur
-						adipisicing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua.
-					</div>
+		<div id="tabs">
+			<ul class="tabs">
+				<li class="tab"><a href="#tabs-1">A tab</a></li>
+				<li class="tab"><a href="#tabs-2">Other tab</a></li>
+				<li class="tab"><a href="#tabs-3">Another tab</a></li>
+				<li class="tab"><a href="#tabs-4">And other...</a></li>
+				</ul>
+			<div class="tabs-1" id="tabs-1">
+				<ul class="itens">
+					<li class="item">
+						<div class="item-container">
+							<div class="name">An item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$29,9</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">Other item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$38,8</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">Another item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$47,7</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">And other...</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$56,6</div>
+						</li>
+					</ul>
 				</div>
-				<div class="price">$29,9</div>
-				</li>
-			<li class="item">
-				<div class="item-container">
-					<div class="name">Other item</div>
-					<div class="desc">
-						Lorem ipsum dolor sit amet, consectetur
-						adipisicing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua.
-					</div>
+			<div class="tabs-2" id="tabs-2">
+				<ul class="itens">
+					<li class="item">
+						<div class="item-container">
+							<div class="name">An item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$29,9</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">Other item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$38,8</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">Another item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$47,7</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">And other...</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$56,6</div>
+						</li>
+					</ul>
 				</div>
-				<div class="price">$38,8</div>
-				</li>
-			<li class="item">
-				<div class="item-container">
-					<div class="name">Another item</div>
-					<div class="desc">
-						Lorem ipsum dolor sit amet, consectetur
-						adipisicing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua.
-					</div>
+			<div class="tabs-3" id="tabs-3">
+				<ul class="itens">
+					<li class="item">
+						<div class="item-container">
+							<div class="name">An item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$29,9</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">Other item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$38,8</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">Another item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$47,7</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">And other...</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$56,6</div>
+						</li>
+					</ul>
 				</div>
-				<div class="price">$47,7</div>
-				</li>
-			<li class="item">
-				<div class="item-container">
-					<div class="name">And other...</div>
-					<div class="desc">
-						Lorem ipsum dolor sit amet, consectetur
-						adipisicing elit, sed do eiusmod tempor
-						incididunt ut labore et dolore magna aliqua.
-					</div>
+			<div class="tabs-4" id="tabs-4">
+				<ul class="itens">
+					<li class="item">
+						<div class="item-container">
+							<div class="name">An item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$29,9</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">Other item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$38,8</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">Another item</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$47,7</div>
+						</li>
+					<li class="item">
+						<div class="item-container">
+							<div class="name">And other...</div>
+							<div class="desc">
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</div>
+						</div>
+						<div class="price">$56,6</div>
+						</li>
+					</ul>
 				</div>
-				<div class="price">$56,6</div>
-				</li>
-		</ul>
-
-	<!--
-	 ___________________________________
-	|							|		|
-	|	NOME DO PRATO			|		|
-	|	-						| PREÇO	|
-	|	descrição e blablabla	|		|
-	|___________________________|_______|
-	-->
-
-		</div>
+			</div>
 		<footer>Desenvolvido por <a href="http://douglasmedina.com" class="link">Douglas Medina</a></footer>
-	</body>
+		</body>
 </html>
